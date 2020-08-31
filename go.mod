@@ -1,3 +1,3 @@
-module github.com/ntec.io/YoutubeChannelStats
+module github.com/ntec-io/YoutubeChannelStats
 
 go 1.15
