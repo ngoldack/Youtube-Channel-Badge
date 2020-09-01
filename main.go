@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/ntec-io/YoutubeChannelStats/api"
+	"github.com/ntec-io/Youtube-Channel-Badge/api"
 )
 
 func main() {

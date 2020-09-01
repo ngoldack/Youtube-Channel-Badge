@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ntec-io/YoutubeChannelStats/internal"
+	"github.com/ntec-io/Youtube-Channel-Badge/internal"
 )
 
 func ViewCount(w http.ResponseWriter, req *http.Request) {
