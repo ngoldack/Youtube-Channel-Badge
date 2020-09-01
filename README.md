@@ -2,6 +2,19 @@
 
 A shields.io API for your youtube channel to protect your api key.
 
+## Table of contents
+- [Why](https://github.com/ntec-io/youtube-channel-badge#Why)
+- [Features](https://github.com/ntec-io/youtube-channel-badge#Features)
+- [Examples](https://github.com/ntec-io/youtube-channel-badge#Examples)
+    - [URLs](https://github.com/ntec-io/youtube-channel-badge#URLs)
+    - [Styles](https://github.com/ntec-io/youtube-channel-badge#Styles)
+- [Configuration](https://github.com/ntec-io/youtube-channel-badge#Configuration)
+    - Getting a google api key & activate youtube api
+    - Find your youtube channel id
+- [Deployment](https://github.com/ntec-io/youtube-channel-badge#Deployment)
+    - Step by Step
+- [Usage](https://github.com/ntec-io/youtube-channel-badge#Usage)
+
 ## Why
 
 You can't publicly access the google/youtube api without an api key. That's why there is no shields.io badge for youtube channels. This repo aims to be the solution to this, because you deploy your own public api which only fetches your channel.
@@ -91,8 +104,7 @@ All examples are live and based on my youtube channel: [ntec.io](https://www.you
 
     ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/channelid.png?raw=true)
 
-## Deployment with vercel
-
+## Deployment
 It is neccessary to deploy this repo by yourself to get a domain for the desired youtube channel.
 An easy and free way to deploy this repo is by using vercel. Just use the button below.
 
