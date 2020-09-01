@@ -32,6 +32,8 @@ You can't publicly access the google/youtube api without an api key. That's why 
 | for-the-badge | ![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
 | social | ![Custom badge](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
 
+All examples are live and based on my youtube channel: [ntec.io](https://www.youtube.com/channel/UCWlzQ62V0vhtH1XkgN4hS2A)
+
 ## Configuration
 
 | Variable Name | Description | Required |
