@@ -5,11 +5,11 @@ import (
 )
 
 type EndpointResponse struct {
-	SchemaVersion int `json:"schemaVersion"`
-	Label         string
-	Message       string
-	Color         string
-	NamedLogo     string
+	SchemaVersion int    `json:"schemaVersion"`
+	Label         string `json:"label"`
+	Message       string `json:"message"`
+	Color         string `json:"color"`
+	NamedLogo     string `json:"namedLogo"`
 }
 
 func ConvertToJson(l, m string) (s string) {
