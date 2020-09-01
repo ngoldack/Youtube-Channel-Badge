@@ -3,16 +3,17 @@
 A shields.io API for your youtube channel to protect your api key.
 
 ## Table of contents
+
 - [Why](https://github.com/ntec-io/youtube-channel-badge#Why)
 - [Features](https://github.com/ntec-io/youtube-channel-badge#Features)
 - [Examples](https://github.com/ntec-io/youtube-channel-badge#Examples)
-    - [URLs](https://github.com/ntec-io/youtube-channel-badge#URLs)
-    - [Styles](https://github.com/ntec-io/youtube-channel-badge#Styles)
+  - [URLs](https://github.com/ntec-io/youtube-channel-badge#URLs)
+  - [Styles](https://github.com/ntec-io/youtube-channel-badge#Styles)
 - [Configuration](https://github.com/ntec-io/youtube-channel-badge#Configuration)
-    - Getting a google api key & activate youtube api
-    - Find your youtube channel id
+  - Getting a google api key & activate youtube api
+  - Find your youtube channel id
 - [Deployment](https://github.com/ntec-io/youtube-channel-badge#Deployment)
-    - Step by Step
+  - Step by Step
 - [Usage](https://github.com/ntec-io/youtube-channel-badge#Usage)
 
 ## Why
