@@ -18,7 +18,7 @@ You can't publicly access the google/youtube api without an api key. That's why 
 | Name | Example | Description | URL |
 | --- | --- | --- | --- |
 | Subscriber count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) | Shows the amount of subscribers | /subscriber |
-| View count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fviews) | /views |
+| View count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fviews) | Shows the amount of views of all videos of the channel | /views |
 | Video count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fvideos) | Shows the amount of videos on the channel | /videos |
 | Comment count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fcomments) | Shows the amount of youtube comments of the channel | /comments |
 
