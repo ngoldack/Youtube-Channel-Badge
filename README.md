@@ -42,14 +42,54 @@ All examples are live and based on my youtube channel: [ntec.io](https://www.you
 | CHANNEL_ID | The youtube channel id of which the stats should be processed | **TRUE** |
 | CACHE_TIME | Time in seconds on how long the last result is cached. Default is 300. | **FALSE** |
 
-<details>
-    <summary>Getting a google api key</summary>
-    TODO
-</details>
-<details>
-    <summary>Find your youtube channel id</summary>
-    TODO
-</details>
+### Getting a google api key & activate youtube api
+
+1. Go to [google developer console](https://console.developers.google.com/)
+
+2. Log In to your google account
+
+3. Click on **Select a project** (Looks like a dropdown button)
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey01.png?raw=true)
+
+4. Create a new project by clicking on the **New Project** button
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey02.png?raw=true)
+
+5. Give your project a name (or leave it to the generated one) and create your project by pressing on **CREATE**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey03.png?raw=true)
+
+6. On the next window, click on **+ ENABLE APIS AND SERVICES** in the top
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey04.png?raw=true)
+
+7. Search for **Youtube** in the search bar and click on **YoTube Data API v3**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey05.png?raw=true)
+
+8. Enable the API by clicking on **ENABLE**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey06.png?raw=true)
+
+9. Click on the 3 lines in the top left corner to open the side menu and hover over **APIs & Services** and then click on **Credentials**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey07.png?raw=true)
+
+10. Click on **CREATE CREDENTIALS** and then on **API key**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey08.png?raw=true)
+
+11. Copy your API key
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/apikey09.png?raw=true)
+
+### Find your youtube channel id
+
+1. Goto your [advanced account settings](https://www.youtube.com/account_advanced)
+2. Copy your channel id
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/channelid.png?raw=true)
 
 ## Deployment with vercel
 
