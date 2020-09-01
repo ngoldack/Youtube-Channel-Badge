@@ -31,7 +31,7 @@ func UpdateCounter() {
 	reqString := fmt.Sprintf("https://www.googleapis.com/youtube/v3/channels?part=statistics&id=%s&key=%s", Info.ChannelID, Info.ApiKey)
 
 	now := time.Now()
-	if now.After(ChannelStats.Time.Add(time.Second * time.Duration(Info.SleepTime))) {
+	if now.After(ChannelStats.Time.Add(time.Second * time.Duration(Info.CacheTime))) {
 		fmt.Println("Not Fresh")
 		resp, err := http.Get(reqString)
 		if err != nil {
