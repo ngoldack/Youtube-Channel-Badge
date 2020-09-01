@@ -21,7 +21,7 @@ func ConvertToJson(l, m string) (s string) {
 		NamedLogo:     "Youtube",
 	}
 
-	bs, _ := json.Marshal(er)
+	bs, _ := json.MarshalIndent(er, "", "	")
 	s = string(bs)
 	return
 }
