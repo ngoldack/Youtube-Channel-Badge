@@ -9,5 +9,6 @@ import (
 
 func VideoCount(w http.ResponseWriter, req *http.Request) {
 	internal.UpdateCounter()
-	fmt.Fprintf(w, internal.ChannelStats.VideoCount)
+	s := internal.ConvertToJson("Videos", internal.ChannelStats.VideoCount)
+	fmt.Fprintf(w, s)
 }

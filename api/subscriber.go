@@ -9,5 +9,6 @@ import (
 
 func SubscriberCount(w http.ResponseWriter, req *http.Request) {
 	internal.UpdateCounter()
-	fmt.Fprintf(w, internal.ChannelStats.SubscriberCount)
+	s := internal.ConvertToJson("Subscribe", internal.ChannelStats.SubscriberCount)
+	fmt.Fprintf(w, s)
 }
