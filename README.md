@@ -56,10 +56,23 @@ An easy and free way to deploy this repo is by using vercel. Just use the button
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fntec-io%2Fyoutube-channel-badge&env=API_KEY,CHANNEL_ID,CACHE_TIME&envDescription=Find%20information%20on%20how%20to%20get%20these%20in%20the%20readme&envLink=https%3A%2F%2Fgithub.com%2Fntec-io%2Fyoutube-channel-badge%23configuration)
 
-<details>
-    <summary>Step by step deployment</summary>
-    TODO
-</details>
+### Step by step
+
+1. Click on the **deploy** button above or click [here](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fntec-io%2Fyoutube-channel-badge&env=API_KEY,CHANNEL_ID,CACHE_TIME&envDescription=Find%20information%20on%20how%20to%20get%20these%20in%20the%20readme&envLink=https%3A%2F%2Fgithub.com%2Fntec-io%2Fyoutube-channel-badge%23configuration)
+
+2. Click on **Continue**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy01.png?raw=true)
+
+3. Click again on **Continue**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy02.png?raw=true)
+
+4. Enter your API_KEY, CHANNEL_ID and CACHE_TIME. Check [Configuration](https://github.com/ntec-io/youtube-channel-badge#Configuration) if you need help getting those things.
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy03.png?raw=true)
+
+5. Click on **Deploy** and your done!
 
 ## Usage
 
@@ -91,3 +104,5 @@ An easy and free way to deploy this repo is by using vercel. Just use the button
 6. Click on the button to copy the badge url
 
     ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/usage03.png?raw=true)
+
+7. Enjoy! :)
