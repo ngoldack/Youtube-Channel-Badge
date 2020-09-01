@@ -10,6 +10,7 @@ type EndpointResponse struct {
 	Message       string `json:"message"`
 	Color         string `json:"color"`
 	NamedLogo     string `json:"namedLogo"`
+	LogoColor     string `json:"logoColor"`
 }
 
 func ConvertToJson(l, m string) (s string) {
@@ -19,6 +20,7 @@ func ConvertToJson(l, m string) (s string) {
 		Message:       m,
 		Color:         "Red",
 		NamedLogo:     "Youtube",
+		LogoColor:     "Red",
 	}
 
 	bs, _ := json.MarshalIndent(er, "", "	")
