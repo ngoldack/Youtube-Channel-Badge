@@ -17,20 +17,20 @@ You can't publicly access the google/youtube api without an api key. That's why 
 
 | Name | Example | Description | URL |
 | --- | --- | --- | --- |
-| Subscriber count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) | Shows the amount of subscribers | /subscriber |
-| View count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fviews) | Shows the amount of youtube views of all videos | /views |
-| Video count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fvideos) | Shows the amount of videos on the channel | /videos |
-| Comment count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fcomments) | Shows the amount of youtube comments of the channel | /comments |
+| Subscriber count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) | Shows the amount of subscribers | /subscriber |
+| View count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fviews) | /views |
+| Video count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fvideos) | Shows the amount of videos on the channel | /videos |
+| Comment count | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fcomments) | Shows the amount of youtube comments of the channel | /comments |
 
 ### Styles
 
 | Name | Examples |
 | --- | --- |
-| plastic | ![Plastic badge](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) |
-| flat | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) |
-| flat-square | ![Custom badge](https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) |
-| for-the-badge | ![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) |
-| social | ![Custom badge](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Fyoutube-channel-stats.ntec-io.vercel.app%2Fapi%2Fsubscriber) |
+| plastic | ![Custom badge](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
+| flat | ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
+| flat-square | ![Custom badge](https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
+| for-the-badge | ![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
+| social | ![Custom badge](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber) |
 
 ## Configuration
 
@@ -64,15 +64,29 @@ An easy and free way to deploy this repo is by using vercel. Just use the button
 
     ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy01.png?raw=true)
 
-3. Click again on **Continue**
+3. Click on **no**
 
     ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy02.png?raw=true)
 
-4. Enter your API_KEY, CHANNEL_ID and CACHE_TIME. Check [Configuration](https://github.com/ntec-io/youtube-channel-badge#Configuration) if you need help getting those things.
+4. Select your user account and click on **continue**
 
     ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy03.png?raw=true)
 
-5. Click on **Deploy** and your done!
+5. Fork the repo with a click on **continue**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy04.png?raw=true)
+
+6. Click again on **Continue**
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy05.png?raw=true)
+
+7. Enter your API_KEY, CHANNEL_ID and CACHE_TIME. Check [Configuration](https://github.com/ntec-io/youtube-channel-badge#Configuration) if you need help getting those things.
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy06.png?raw=true)
+
+8. Click on **Deploy** and your deployment should finish after a short time
+
+    ![url image](https://github.com/ntec-io/youtube-channel-badge/blob/master/docs/images/deploy07.png?raw=true)
 
 ## Usage
 
